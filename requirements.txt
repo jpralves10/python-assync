@@ -9,6 +9,7 @@ cchardet==2.1.7
 cffi==1.14.6
 chardet==4.0.0
 colorama==0.4.4
+Cython==0.29.24
 idna==3.2
 multidict==5.1.0
 pycares==4.0.0
