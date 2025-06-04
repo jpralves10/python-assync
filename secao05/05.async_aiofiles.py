@@ -1,3 +1,10 @@
+"""
+https://github.com/aio-libs
+https://github.com/python/asyncio/wiki/ThirdParty
+https://pypi.org/search/?c=Framework+%3A%3A+AsyncIO
+"""
+
+
 import asyncio
 
 import aiofiles
