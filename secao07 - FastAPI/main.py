@@ -3,6 +3,7 @@ pip install fastapi uvicorn[standard]
 
 * Para subir o servidor:
 uvicorn main:app --reload
+uvicorn --host 0.0.0.0 --port 8080 main:app --reload
 
 acessar um recurso: 
 localhost:8000
