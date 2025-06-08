@@ -1,3 +1,7 @@
+"""
+python setup.py build_ext --implace
+"""
+
 from distutils.core import setup
 from Cython.Build import cythonize
 
