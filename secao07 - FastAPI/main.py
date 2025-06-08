@@ -1,4 +1,6 @@
 """
+https://fastapi.tiangolo.com/learn/
+
 pip install fastapi uvicorn[standard]
 
 * Para subir o servidor:
