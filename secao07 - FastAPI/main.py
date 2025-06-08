@@ -7,6 +7,7 @@ uvicorn main:app --reload
 acessar um recurso: 
 localhost:8000
 localhost:8000/docs
+localhost:8000/redoc
 
 """
 
