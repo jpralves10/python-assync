@@ -1,5 +1,8 @@
 """
 pip install fastapi uvicorn[standard]
+
+* Para subir o servidor:
+uvicorn main:app --reload
 """
 
 from fastapi import FastAPI
