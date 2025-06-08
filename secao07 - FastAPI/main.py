@@ -31,7 +31,10 @@ async def get_produto(id: int):
     for produto in produtos:
         if id == produto.id:
             return produto
-        return None
+        else:
+            continue
+    return None
+
 
 @app.put('/produtos/{id}')
 async def put_produto(id: int, produto: Produto):
@@ -39,6 +42,9 @@ async def put_produto(id: int, produto: Produto):
         if id == produto.id:
             prod = produto
             return prod
+        else:
+            continue
+    return None
 
 
 
