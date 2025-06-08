@@ -1,3 +1,7 @@
+"""
+pip install fastapi uvicorn[standard]
+"""
+
 from fastapi import FastAPI
 
 from produto import produtos, Produto
